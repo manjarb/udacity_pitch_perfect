@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6099262014A43D0044ADE1 /* ImageContentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6099252014A43D0044ADE1 /* ImageContentMode.swift */; };
+		DE800C46201506BF00239CFD /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE800C45201506BF00239CFD /* playsoundsviewcontroller-audio.swift */; };
 		DEA364D3200E40F6009D0058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA364D2200E40F6009D0058 /* AppDelegate.swift */; };
-		DEA364D5200E40F6009D0058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA364D4200E40F6009D0058 /* ViewController.swift */; };
+		DEA364D5200E40F6009D0058 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA364D4200E40F6009D0058 /* RecordSoundsViewController.swift */; };
 		DEA364D8200E40F6009D0058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA364D6200E40F6009D0058 /* Main.storyboard */; };
 		DEA364DA200E40F6009D0058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA364D9200E40F6009D0058 /* Assets.xcassets */; };
 		DEA364DD200E40F6009D0058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA364DB200E40F6009D0058 /* LaunchScreen.storyboard */; };
+		DEA364E520127064009D0058 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA364E420127064009D0058 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE6099252014A43D0044ADE1 /* ImageContentMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentMode.swift; sourceTree = "<group>"; };
+		DE800C45201506BF00239CFD /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		DEA364CF200E40F6009D0058 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA364D2200E40F6009D0058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DEA364D4200E40F6009D0058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA364D4200E40F6009D0058 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		DEA364D7200E40F6009D0058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEA364D9200E40F6009D0058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA364DC200E40F6009D0058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA364DE200E40F6009D0058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA364E420127064009D0058 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		DEA364D1200E40F6009D0058 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				DE800C45201506BF00239CFD /* playsoundsviewcontroller-audio.swift */,
 				DEA364D2200E40F6009D0058 /* AppDelegate.swift */,
-				DEA364D4200E40F6009D0058 /* ViewController.swift */,
+				DEA364D4200E40F6009D0058 /* RecordSoundsViewController.swift */,
 				DEA364D6200E40F6009D0058 /* Main.storyboard */,
 				DEA364D9200E40F6009D0058 /* Assets.xcassets */,
 				DEA364DB200E40F6009D0058 /* LaunchScreen.storyboard */,
 				DEA364DE200E40F6009D0058 /* Info.plist */,
+				DEA364E420127064009D0058 /* PlaySoundsViewController.swift */,
+				DE6099252014A43D0044ADE1 /* ImageContentMode.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA364D5200E40F6009D0058 /* ViewController.swift in Sources */,
+				DE6099262014A43D0044ADE1 /* ImageContentMode.swift in Sources */,
+				DE800C46201506BF00239CFD /* playsoundsviewcontroller-audio.swift in Sources */,
+				DEA364D5200E40F6009D0058 /* RecordSoundsViewController.swift in Sources */,
+				DEA364E520127064009D0058 /* PlaySoundsViewController.swift in Sources */,
 				DEA364D3200E40F6009D0058 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
